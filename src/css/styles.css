@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import './shared.css';
+@import './header.css';
+@import './intro.css';
+@import './calculator/_all.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: radial-gradient(circle at 80% 0%, var(--quarter-pearl) 0, var(--spring-wood) 42%, var(--satin-linen) 100%);
+}
+
+.app-container {
+    max-width: 1240px;
+    margin: auto;
+    padding: 28px 6vw 22px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        padding: 20px 20px 18px;
+    }
+}

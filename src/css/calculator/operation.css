@@ -1,0 +1,48 @@
+.operation-symbol {
+    font-size: 64px;
+    line-height: .8;
+    color: var(--coral);
+    font-weight: 400;
+}
+
+.operation-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin: 35px 0 32px;
+
+    @media (max-width: 768px) {
+        gap: 4px;
+    }
+
+    .operation {
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--muted);
+        padding: 11px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-size: 12px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 4px;
+            padding: 9px 3px;
+            font-size: 10px;
+        }
+
+        span {
+            font-size: 17px;
+            color: var(--ink);
+        }
+
+        &.active {
+            color: var(--ink);
+            background: var(--acid);
+            border-color: var(--ink);
+        }
+
+    }
+}

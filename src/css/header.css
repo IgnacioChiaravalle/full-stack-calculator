@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 22px;
+
+    span.candidate {
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: -.03em;
+
+        span.candidate-initials {
+            background: var(--ink);
+            color: var(--acid);
+            width: 29px;
+            height: 29px;
+            display: grid;
+            place-items: center;
+            font-family: 'DM Mono', monospace;
+            font-size: 14px;
+        }
+    }
+}

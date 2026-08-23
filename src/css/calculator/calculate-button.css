@@ -1,0 +1,22 @@
+button.calculate-button {
+    margin-top: 27px;
+    width: 100%;
+    border: 0;
+    background: var(--ink);
+    color: var(--quarter-pearl);
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+
+    &:disabled {
+        opacity: .65;
+        cursor: wait;
+    }
+
+    span {
+        color: var(--acid);
+        font-size: 23px;
+    }
+}

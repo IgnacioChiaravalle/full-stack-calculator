@@ -1,0 +1,17 @@
+@import './panels-shape.css';
+@import './components.css';
+@import './operation.css';
+@import './inputs-row.css';
+@import './calculate-button.css';
+@import './result-area.css';
+@import './recent-work.css';
+
+.calculator-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}

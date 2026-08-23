@@ -1,0 +1,22 @@
+form.calculator-panel,
+aside.recent-work-panel {
+    border: 1px solid var(--ink);
+    background: rgba(var(--bg-gray), .52);
+    padding: 30px;
+
+    div.panel-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        h2 {
+            font-size: 24px;
+            letter-spacing: -.05em;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 22px;
+    }
+}

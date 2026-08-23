@@ -1,0 +1,28 @@
+:root {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #20231f;
+    background: #f7f4ee;
+    font-synthesis: none;
+    --ink: #20231f;
+    --muted: #777970;
+    --line: #d9d7cf;
+    --error: #b44132;
+    --acid: #d6ed3d;
+    --coral: #ed725c;
+    --quarter-pearl: #fffdf6;
+    --spring-wood: #f7f4ee;
+    --satin-linen: #ece9e0;
+    --bg-gray: #fffffb;
+
+}
+
+.monospace {
+    color: var(--muted);
+    font: 500 10px 'DM Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
+
+.eyebrow {
+    margin: 0 0 16px;
+}
