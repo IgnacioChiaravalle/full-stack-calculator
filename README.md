@@ -1,4 +1,4 @@
-# Numeral Studio
+# Full-Stack Calculator
 
 A full-stack calculator with a React + TypeScript frontend and a Go REST API. The frontend provides a focused calculator workspace, while the backend owns arithmetic execution and API-level validation.
 
