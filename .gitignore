@@ -1,4 +1,6 @@
 node_modules
 dist
+coverage
+backend/coverage.out
 .env
 *.log
